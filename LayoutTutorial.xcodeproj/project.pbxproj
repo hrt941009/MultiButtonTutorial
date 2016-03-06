@@ -14,6 +14,11 @@
 		40E73DEC1C873696005402F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E73DEA1C873696005402F9 /* LaunchScreen.storyboard */; };
 		40E73DF71C873696005402F9 /* LayoutTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E73DF61C873696005402F9 /* LayoutTutorialTests.swift */; };
 		40E73E021C873696005402F9 /* LayoutTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E73E011C873696005402F9 /* LayoutTutorialUITests.swift */; };
+		40E73E101C8736A8005402F9 /* FrameLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E73E0F1C8736A8005402F9 /* FrameLayoutView.swift */; };
+		40E73E121C8A8DF7005402F9 /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E73E111C8A8DF7005402F9 /* TestTableViewCell.swift */; };
+		40E73E141C8A9149005402F9 /* InsideCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E73E131C8A9149005402F9 /* InsideCollectionViewCell.swift */; };
+		40E73E161C8A91A3005402F9 /* wuyanzu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40E73E151C8A91A3005402F9 /* wuyanzu.jpg */; };
+		40E73E181C8A923D005402F9 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E73E171C8A923D005402F9 /* TestModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		40E73DFD1C873696005402F9 /* LayoutTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E73E011C873696005402F9 /* LayoutTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutTutorialUITests.swift; sourceTree = "<group>"; };
 		40E73E031C873696005402F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E73E0F1C8736A8005402F9 /* FrameLayoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameLayoutView.swift; sourceTree = "<group>"; };
+		40E73E111C8A8DF7005402F9 /* TestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
+		40E73E131C8A9149005402F9 /* InsideCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsideCollectionViewCell.swift; sourceTree = "<group>"; };
+		40E73E151C8A91A3005402F9 /* wuyanzu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wuyanzu.jpg; sourceTree = "<group>"; };
+		40E73E171C8A923D005402F9 /* TestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +107,13 @@
 		40E73DE01C873696005402F9 /* LayoutTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				40E73E151C8A91A3005402F9 /* wuyanzu.jpg */,
 				40E73DE11C873696005402F9 /* AppDelegate.swift */,
 				40E73DE31C873696005402F9 /* ViewController.swift */,
+				40E73E111C8A8DF7005402F9 /* TestTableViewCell.swift */,
+				40E73E171C8A923D005402F9 /* TestModel.swift */,
+				40E73E131C8A9149005402F9 /* InsideCollectionViewCell.swift */,
+				40E73E0F1C8736A8005402F9 /* FrameLayoutView.swift */,
 				40E73DE51C873696005402F9 /* Main.storyboard */,
 				40E73DE81C873696005402F9 /* Assets.xcassets */,
 				40E73DEA1C873696005402F9 /* LaunchScreen.storyboard */,
@@ -230,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40E73DEC1C873696005402F9 /* LaunchScreen.storyboard in Resources */,
+				40E73E161C8A91A3005402F9 /* wuyanzu.jpg in Resources */,
 				40E73DE91C873696005402F9 /* Assets.xcassets in Resources */,
 				40E73DE71C873696005402F9 /* Main.storyboard in Resources */,
 			);
@@ -257,6 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				40E73DE41C873696005402F9 /* ViewController.swift in Sources */,
+				40E73E121C8A8DF7005402F9 /* TestTableViewCell.swift in Sources */,
+				40E73E141C8A9149005402F9 /* InsideCollectionViewCell.swift in Sources */,
+				40E73E181C8A923D005402F9 /* TestModel.swift in Sources */,
+				40E73E101C8736A8005402F9 /* FrameLayoutView.swift in Sources */,
 				40E73DE21C873696005402F9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
